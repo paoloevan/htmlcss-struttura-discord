@@ -11,9 +11,14 @@
 
 /* Utilities */
 .container {
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: auto;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .row {
@@ -36,9 +41,31 @@
 }
 /* / */
 
+/* header */
+header {
+    background-color: var(--disc-header);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    text-align: right;    
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+
 /* #region Debug */
 .debug header {
-    background-color: var(--disc-header);
     height: 40px;
 }
 
@@ -151,13 +178,6 @@ footer {
 
 /* #endregion colonne */
 
-.link {
-    text-align: center;
-}
-
-.login {
-    text-align: right;
-}
 
 
 .title {
