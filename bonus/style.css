@@ -16,10 +16,6 @@
     margin: auto;
 }
 
-.row-header {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .row {
     display: flex;
@@ -44,6 +40,12 @@
 /* header */
 header {
     background-color: var(--disc-header);
+    padding: 10px 0;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 a {
