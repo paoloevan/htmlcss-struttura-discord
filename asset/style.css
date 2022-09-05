@@ -6,11 +6,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 70%;
-    max-width: 1200px;
-    margin: auto;
-}
 
 .row {
     display: flex;
@@ -18,7 +13,15 @@
 }
 /* #endregion */
 
-/* Debug */
+/* Utilities */
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+}
+/* / */
+
+/* #region Debug */
 .debug header {
     background-color: aqua;
     height: 40px;
@@ -44,6 +47,11 @@
     height: 350px;
 }
 
+.debug .background-grey {
+    height: 350px;
+    background-color: rgb(228, 220, 220);
+}
+
 .debug .img {
     height: 300px;
     background-color: rgb(74, 138, 160);
@@ -53,6 +61,7 @@
     height: 300px;
     background-color: rgba(255, 192, 203, 0.61);
 }
+/* #endregion Debug */
 
 /* #region Colonne */
 .col-1 {
