@@ -12,7 +12,7 @@ body, button {
 
 /* #endregion */
 
-/* Utilities */
+/* #region Utilities */
 .container {
     width: 80%;
     max-width: 1200px;
@@ -39,45 +39,18 @@ body, button {
 
 }
 
-
-/* font-family: 'Roboto', sans-serif; */
-
-/* / */
-
-/* header */
-header {
-    background-color: var(--disc-header);
-    padding: 10px 0;
-    font-weight: 400;
-}
-
-.row-header {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.login {
-    text-align: right;    
-}
-
-button {
-    color: black;
-    background-color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 17px;
-}
-
+/* #endregion */
 
 /* #region Debug */
-.debug header {
+
+/* .debug header {
     height: 40px;
-}
+} */
+
+/* .debug .background {
+    background-color: blue;
+    height: 300px;
+} */
 
 .debug .col-2,
 .debug .col-10 {
@@ -85,10 +58,6 @@ button {
     border: 1px solid;
 }
 
-.debug .background {
-    background-color: blue;
-    height: 300px;
-}
 
 .debug .title {
     background-color: pink;
@@ -188,7 +157,45 @@ footer {
 
 /* #endregion colonne */
 
+/* #region header */
+header {
+    background-color: var(--disc-header);
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
 
+.row-header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    text-align: right;    
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* #endregion */
+
+.background {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+}
 
 .title {
     width: 50%;
