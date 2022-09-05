@@ -26,11 +26,19 @@
     justify-content: space-between;
     align-items: center;
 }
+
+:root {
+    --disc-darker: #23272A;
+    --disc-text: #7289DA;
+    --disc-header: #255EE9;
+    --disc-grey: #F5F5F5;
+
+}
 /* / */
 
 /* #region Debug */
 .debug header {
-    background-color: aqua;
+    background-color: var(--disc-header);
     height: 40px;
 }
 
