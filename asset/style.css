@@ -8,6 +8,7 @@
 
 .container {
     width: 70%;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -25,6 +26,16 @@
 .debug .col-10 {
     background-color: orange;
     border: 1px solid;
+}
+
+.debug .background {
+    background-color: blue;
+    height: 300px;
+}
+
+.debug .title {
+    background-color: pink;
+    height: 250px;
 }
 
 /* #region Colonne */
@@ -73,4 +84,9 @@
 
 .login {
     text-align: right;
+}
+
+.title {
+    width: 50%;
+    margin: auto;
 }
