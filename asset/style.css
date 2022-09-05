@@ -71,6 +71,15 @@
     height: 400px;
     background-color: greenyellow;
 }
+
+.debug .col-footer {
+    height: 400px;
+    background-color: red;
+}
+
+.debug footer>.row {
+    height: 500px;
+}
 /* #endregion Debug */
 
 /* #region Colonne */
@@ -125,4 +134,8 @@
 .title {
     width: 50%;
     margin: auto;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0);
 }
