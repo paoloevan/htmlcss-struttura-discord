@@ -6,6 +6,9 @@
     box-sizing: border-box;
 }
 
+body, button {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* #endregion */
 
@@ -35,12 +38,17 @@
     --disc-grey: #F5F5F5;
 
 }
+
+
+/* font-family: 'Roboto', sans-serif; */
+
 /* / */
 
 /* header */
 header {
     background-color: var(--disc-header);
     padding: 10px 0;
+    font-weight: 400;
 }
 
 .row-header {
